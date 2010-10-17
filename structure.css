@@ -1,0 +1,32 @@
+﻿body {
+  background-color: #000;
+  color: #fff;
+  font: normal normal normal 0.8125em/normal Verdana, sans-serif;
+  text-align:auto;
+  padding: 1em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 290%;
+  margin-bottom: 0.6em;
+}
+
+div#story {
+  width: 27em;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 90%;
+  line-height: 1.5;
+}
+
+hr {
+  width: 80%;
+  border-width: 1px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
