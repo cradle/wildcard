@@ -7,13 +7,13 @@
 }
 
 h1 {
-  font-family: PuritanNormal, Tahoma, Geneva, sans-serif;
+  font-family: Puritan, Tahoma, Geneva, sans-serif;
   text-align: center;
   font-size: 4em;
   padding-bottom: 0.1em;
 }
 h2 {
-  font-family: PuritanNormal, Tahoma, Geneva, sans-serif;
+  font-family: Puritan, Tahoma, Geneva, sans-serif;
   text-align:right;
   font-size: 2em;
   padding-top: 0.7em;
@@ -42,7 +42,7 @@ div#story {
 }
 
 blockquote {
-  font-family: PuritanNormal;
+  font-family: Puritan;
   font-size: 130%;
   text-align: center;
   padding-top: 0.5em;
