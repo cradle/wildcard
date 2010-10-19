@@ -1,0 +1,36 @@
+@font-face {
+  /* Normal */
+  font-family: "PuritanNormal";
+  src: url("http://openfontlibrary.org/content/benweiner/259/Puritan2.otf") format("opentype");
+  font-weight:  400;
+  font-style:   normal;
+  font-variant: normal;
+  font-stretch: normal;
+}
+@font-face {
+  /* Bold */
+  font-family: "PuritanBold";
+  src: url("http://openfontlibrary.org/content/benweiner/259/Puritan2Bold.otf") format("opentype");
+  font-weight:  700;
+  font-style:   normal;
+  font-variant: normal;
+  font-stretch: normal;
+}
+@font-face {
+  /* BoldItalic */
+  font-family: "PuritanBoldItalic";
+  src: url("http://openfontlibrary.org/content/benweiner/259/Puritan2BoldItalic.otf") format("opentype");
+  font-weight:  700;
+  font-style:   italic;
+  font-variant: normal;
+  font-stretch: normal;
+}
+@font-face {
+  /* Italic */
+  font-family: "PuritanItalic";
+  src: url("http://openfontlibrary.org/content/benweiner/259/Puritan2Italic.otf") format("opentype");
+  font-weight:  400;
+  font-style:   italic;
+  font-variant: normal;
+  font-stretch: normal;
+}		

@@ -1,22 +1,25 @@
 ﻿body {
   background-color: #000;
   color: #fff;
-  font: normal normal normal 0.8125em/normal Verdana, sans-serif;
-  text-align:auto;
+  font: normal normal normal 0.8125em/normal;
+  font-family: Trebuchet MS, Verdana, Geneva, Arial, sans-serif;
   padding: 1em;
 }
 
 h1 {
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: PuritanNormal, Tahoma, Geneva, sans-serif;
   text-align: center;
-  font-size: 3em;
-  padding-bottom: 0.5em;
+  font-size: 4em;
+  padding-bottom: 0.2em;
 }
 h2 {
+  font-family: PuritanNormal, Tahoma, Geneva, sans-serif;
   text-align:right;
-  font-size: 1.5em;
-  padding-bottom: 0.2em;
-  padding-top: 1em;
+  font-size: 2em;
+  padding-top: 0.7em;
+  padding-bottom: 0.15em;
+  width: 80%;
+  border-bottom: 2px solid white;
 }
 
 em {
@@ -37,19 +40,18 @@ div#story {
 
 blockquote {
   text-align: center;
-  border-top: 1px dashed white;
-  padding-top: 1em;
-  border-bottom: 1px dashed white;
-  padding-bottom: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
-blockquote p.cite {
-  padding: 0;
-  margin: 0;
+blockquote p {
+  float: center;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
 }
 
 p {
-  font-size: 90%;
+  font-size: 100%;
   line-height: 1.5;
 }
 
@@ -59,7 +61,7 @@ p.signoff {
 }
 
 hr {
-  width: 80%;
+  width: 70%;
   border-width: 1px;
   margin-top: 1.5em;
   margin-bottom: 2em;
