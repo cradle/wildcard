@@ -23,6 +23,11 @@ em {
   font-style: italic;  
 }
 
+strong {
+  font-style: italic;
+  font-weight: bold;
+}
+
 div#story {
   width: 26.5em;
   text-align: justify;
@@ -32,9 +37,9 @@ div#story {
 
 blockquote {
   text-align: center;
-  border-top: 1px dotted white;
+  border-top: 1px dashed white;
   padding-top: 1em;
-  border-bottom: 1px dotted white;
+  border-bottom: 1px dashed white;
   padding-bottom: 1em;
 }
 
@@ -46,6 +51,11 @@ blockquote p.cite {
 p {
   font-size: 90%;
   line-height: 1.5;
+}
+
+p.signoff {
+  padding-left: 1em;
+  color: #888;
 }
 
 hr {
