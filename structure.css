@@ -10,7 +10,7 @@ h1 {
   font-family: PuritanNormal, Tahoma, Geneva, sans-serif;
   text-align: center;
   font-size: 4em;
-  padding-bottom: 0.2em;
+  padding-bottom: 0.1em;
 }
 h2 {
   font-family: PuritanNormal, Tahoma, Geneva, sans-serif;
@@ -20,6 +20,9 @@ h2 {
   padding-bottom: 0.15em;
   width: 80%;
   border-bottom: 2px solid white;
+}
+h2:after {
+  content: ".*";
 }
 
 em {
@@ -39,6 +42,8 @@ div#story {
 }
 
 blockquote {
+  font-family: PuritanNormal;
+  font-size: 130%;
   text-align: center;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -46,8 +51,8 @@ blockquote {
 
 blockquote p {
   float: center;
-  margin-top: 0.4em;
-  margin-bottom: 0.4em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
 }
 
 p {
