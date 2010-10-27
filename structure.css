@@ -1,75 +1,60 @@
 ﻿body {
-  background-color: #000;
   color: #fff;
   font: normal normal normal 0.8125em/normal;
   font-family: Trebuchet MS, Verdana, Geneva, Arial, sans-serif;
   padding: 1em;
+  background: #000;
 }
-
 h1 {
-  font-family: 'Puritan20Normal', Tahoma, Geneva, sans-serif;
   text-align: center;
-  font-size: 4em;
   padding-bottom: 0.1em;
+  font: 4em 'Puritan20Normal', Tahoma, Geneva, sans-serif;
 }
 h2 {
-  font-family: 'Puritan20Normal', Tahoma, Geneva, sans-serif;
   text-align: right;
-  font-size: 2em;
   padding-top: 0.7em;
   padding-bottom: 0.15em;
   width: 85%;
   border-bottom: 2px solid white;
+  font: 2em 'Puritan20Normal', Tahoma, Geneva, sans-serif;
 }
 h2:after {
   content: ".*";
 }
-
 em {
-  font-style: italic;  
+  font-style: italic;
 }
-
 strong {
   font-style: italic;
   font-weight: bold;
 }
-
 div#story {
   width: 26.5em;
   text-align: justify;
   margin-left: auto;
   margin-right: auto;
 }
-
 blockquote {
-  font-family: 'Puritan20Normal';
-  font-size: 130%;
   text-align: center;
   padding: 0.5em 0;
   margin: 0;
+  font: 130% 'Puritan20Normal';
 }
-
 blockquote p {
   float: center;
   margin-top: 0.1em;
   margin-bottom: 0.1em;
 }
-
 p {
   width: 96%;
-  margin-left: auto;
-  margin-right: auto;
   font-size: 100%;
   line-height: 1.7;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin: 1.5em auto;
 }
-
 p.signoff {
   padding-left: 1em;
   color: #888;
 }
-
 div#footer {
   text-align: center;
 }
